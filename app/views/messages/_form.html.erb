@@ -1,4 +1,5 @@
 <%= form_for(@message, html: { class: 'form-horizontal'}) do |f| %>
+  
   <% if @message.errors.present? %>
     <div class="alert alert-danger">
       <%= alert %>
